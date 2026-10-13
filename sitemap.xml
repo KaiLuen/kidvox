@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://kailuen.github.io/kidvox/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kailuen.github.io/kidvox/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kailuen.github.io/kidvox/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kailuen.github.io/kidvox/es/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kailuen.github.io/kidvox/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kailuen.github.io/kidvox/en/"/>
+  </url>
+  <url>
+    <loc>https://kailuen.github.io/kidvox/en/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kailuen.github.io/kidvox/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kailuen.github.io/kidvox/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kailuen.github.io/kidvox/es/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kailuen.github.io/kidvox/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kailuen.github.io/kidvox/en/"/>
+  </url>
+  <url>
+    <loc>https://kailuen.github.io/kidvox/es/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kailuen.github.io/kidvox/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kailuen.github.io/kidvox/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kailuen.github.io/kidvox/es/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kailuen.github.io/kidvox/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kailuen.github.io/kidvox/en/"/>
+  </url>
+  <url>
+    <loc>https://kailuen.github.io/kidvox/ko/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://kailuen.github.io/kidvox/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kailuen.github.io/kidvox/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kailuen.github.io/kidvox/es/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kailuen.github.io/kidvox/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kailuen.github.io/kidvox/en/"/>
+  </url>
+</urlset>

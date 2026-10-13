@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kidvox – Toddler Speech &amp; Pronunciation Practice App, Ages 2–3</title>
+<meta name="description" content="Speech flashcards that help toddlers and young kids (ages 2–3) learn first words. Say the word into the mic and get an instant pronunciation score. No ads.">
+<meta name="theme-color" content="#8fd0f5">
+<link rel="canonical" href="https://kailuen.github.io/kidvox/en/">
+<link rel="alternate" hreflang="zh-Hant" href="https://kailuen.github.io/kidvox/">
+<link rel="alternate" hreflang="en" href="https://kailuen.github.io/kidvox/en/">
+<link rel="alternate" hreflang="es" href="https://kailuen.github.io/kidvox/es/">
+<link rel="alternate" hreflang="ko" href="https://kailuen.github.io/kidvox/ko/">
+<link rel="alternate" hreflang="x-default" href="https://kailuen.github.io/kidvox/en/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kidvox">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://kailuen.github.io/kidvox/en/">
+<meta property="og:title" content="Kidvox – Toddler Speech &amp; Pronunciation Practice App, Ages 2–3">
+<meta property="og:description" content="Speech flashcards that help toddlers and young kids (ages 2–3) learn first words. Say the word into the mic and get an instant pronunciation score. No ads.">
+<meta property="og:image" content="https://kailuen.github.io/kidvox/assets/img/icon-512.png">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MobileApplication","name":"Kidvox","alternateName":"童語萌芽","description":"Speech flashcards that help toddlers and young kids (ages 2–3) learn first words. Say the word into the mic and get an instant pronunciation score. No ads.","url":"https://kailuen.github.io/kidvox/en/","image":"https://kailuen.github.io/kidvox/assets/img/icon-512.png","screenshot":["https://kailuen.github.io/kidvox/assets/img/screens/en/say.webp","https://kailuen.github.io/kidvox/assets/img/screens/en/list.webp","https://kailuen.github.io/kidvox/assets/img/screens/en/home.webp","https://kailuen.github.io/kidvox/assets/img/screens/en/rec.webp","https://kailuen.github.io/kidvox/assets/img/screens/en/result.webp"],"inLanguage":"en","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","typicalAgeRange":"2-3","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"CityFun"},"sameAs":["https://apps.apple.com/tw/app/id6804128361","https://play.google.com/store/apps/details?id=com.cityforfun.kidspeech"]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is it different from regular flashcards?","acceptedAnswer":{"@type":"Answer","text":"Most flashcards only let kids look and listen. Kidvox adds “Say it”: your child holds the mic, says the word, and gets a pronunciation score right away, so they know if they got it and want to keep talking."}},{"@type":"Question","name":"What age is it for?","acceptedAnswer":{"@type":"Answer","text":"Mainly toddlers aged 2–3 who are just starting to talk. Older kids, or children learning a second language, can use it to pick up new words and practice pronunciation too."}},{"@type":"Question","name":"My toddler isn’t talking much yet. Can they still play?","acceptedAnswer":{"@type":"Answer","text":"Yes. Start by tapping cards to hear the words, then try the mic when your child is ready. Cards come one at a time, every word can be replayed, and a missed word only hears “Try saying it again.” It’s a practice game, not a speech therapy tool. Every child starts talking at their own pace, so if you’re concerned about your child’s language development, please talk to your pediatrician or a speech-language therapist."}},{"@type":"Question","name":"Can my child practice another language?","acceptedAnswer":{"@type":"Answer","text":"Yes. Switch the language in Settings to Traditional Chinese, Spanish or Korean, and the words, audio and pronunciation scoring all switch (the app’s menus switch too)."}},{"@type":"Question","name":"How is the pronunciation score worked out? What if it’s too strict?","acceptedAnswer":{"@type":"Answer","text":"After your child says the word, speech recognition compares it with the correct pronunciation and gives a score from 0 to 100. Reach the passing score and the word counts as correct. Parents can change the Scoring Level in Settings: Easy (40), Medium (60, the default) or Hard (80). Kids just starting to talk can begin with Easy."}},{"@type":"Question","name":"Does it cost anything?","acceptedAnswer":{"@type":"Answer","text":"The app is free to download. Four topics are free (Animals, Vehicles, City streets and Fruits), with “Say it” and “Find it” fully playable. The other topics unlock with a subscription, which also covers topics added later. Monthly and yearly plans are available, and the price in your currency is shown in the app."}},{"@type":"Question","name":"Does it need the internet?","acceptedAnswer":{"@type":"Answer","text":"Pronunciation scoring in “Say it” needs a connection. Each topic’s cards and sounds download the first time it’s opened, then stay on the device."}},{"@type":"Question","name":"Are my child’s recordings kept?","acceptedAnswer":{"@type":"Answer","text":"No. The mic only records while the button is held (up to 10 seconds). The clip is sent to a speech recognition service for scoring, and the temporary file is deleted from the device as soon as it’s done. We run no servers of our own and never keep, analyze or sell recordings. See the \u003ca href=\"https://kailuen.github.io/kidspeech.privacy/\" target=\"_blank\" rel=\"noopener\">privacy policy\u003c/a>."}},{"@type":"Question","name":"Which devices does it run on?","acceptedAnswer":{"@type":"Answer","text":"iPhone, iPad, and Android phones and tablets."}}]}]}</script>
+<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<!-- 共用圖示 -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.07-.463 1.58-1.518 3.12-.945 1.34-1.94 2.71-3.43 2.71-1.517 0-1.9-.88-3.63-.88-1.698 0-2.302.91-3.67.91-1.377 0-2.332-1.26-3.428-2.8-1.287-1.82-2.323-4.63-2.323-7.28 0-4.28 2.797-6.55 5.552-6.55 1.448 0 2.675.95 3.6.95.865 0 2.222-1.01 3.902-1.01.613 0 2.886.06 4.374 2.19-.13.09-2.383 1.37-2.383 4.19 0 3.26 2.854 4.42 2.955 4.45z"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24">
+    <path fill="#4285F4" d="M3.6 1.8 13.5 12l-9.9 10.2c-.4-.3-.6-.7-.6-1.2V3c0-.5.2-.9.6-1.2z"/>
+    <path fill="#34A853" d="M3.6 1.8c.3-.2.8-.2 1.2 0l12.1 6.9L13.5 12z"/>
+    <path fill="#FBBC04" d="m16.9 8.7 3.5 2c1 .6 1 2 0 2.6l-3.5 2-3.4-3.3z"/>
+    <path fill="#EA4335" d="m13.5 12 3.4 3.3-12.1 6.9c-.4.2-.9.2-1.2 0z"/>
+  </symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></g></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></g></symbol>
+  <symbol id="i-tap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4.1 12 6"/><path d="m5.1 8-2.9-.8"/><path d="m6 12-1.9 2"/><path d="M7.2 2.2 8 5.1"/><path d="M9.04 9.69a.5.5 0 0 1 .65-.65l11 4.5a.5.5 0 0 1-.07.95l-4.35 1.04a1 1 0 0 0-.74.74l-1.04 4.35a.5.5 0 0 1-.95.07z"/></g></symbol>
+  <symbol id="i-smile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/></g></symbol>
+  <symbol id="i-repeat" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></g></symbol>
+  <symbol id="i-ban" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/></g></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></g></symbol>
+  <symbol id="i-user-x" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m17 8 5 5M22 8l-5 5"/></g></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><path d="M12 19v3"/></g></symbol>
+</svg>
+
+<div class="page">
+
+  <!-- ===== AppBar ===== -->
+  <header class="appbar">
+    <div class="appbar__inner">
+      <a class="brand" href="./" aria-label="Kidvox">
+        <img class="brand__icon" src="../assets/img/icon-256.webp" width="40" height="40" alt="">
+        <span class="brand__text">
+          <span class="brand__name">Kidvox</span>
+          <span class="brand__sub"></span>
+        </span>
+      </a>
+
+      <div class="appbar__spacer"></div>
+
+      <nav class="actions">
+        <a class="actions__link" href="./" aria-current="page">Home</a>
+
+        <div class="lang">
+          <button class="lang__btn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu" aria-label="Language">
+            <svg class="ico"><use href="#i-globe"/></svg>
+            <span class="lang__current">English</span>
+            <svg class="ico ico--sm"><use href="#i-chevron"/></svg>
+          </button>
+          <ul class="lang__menu" id="lang-menu" role="menu" hidden>
+            <li role="none"><a role="menuitemradio" aria-checked="false" href="../" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh">繁體中文</a></li>
+            <li role="none"><a role="menuitemradio" aria-checked="true" href="../en/" hreflang="en" lang="en" data-lang="en">English</a></li>
+            <li role="none"><a role="menuitemradio" aria-checked="false" href="../es/" hreflang="es" lang="es" data-lang="es">Español</a></li>
+            <li role="none"><a role="menuitemradio" aria-checked="false" href="../ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="langhint" hidden>
+    <div class="langhint__inner">
+      <span class="langhint__text"></span>
+      <a class="langhint__go" href="#"></a>
+      <button class="langhint__close" type="button" aria-label="Close">&times;</button>
+    </div>
+  </div>
+
+  <!-- ===== Content ===== -->
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="sky" aria-hidden="true">
+        <span class="sun"></span>
+        <span class="cloud cloud--1"></span>
+        <span class="cloud cloud--2"></span>
+        <span class="cloud cloud--3"></span>
+      </div>
+
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <h1 class="eyebrow">Pronunciation practice flashcards for toddlers aged 2–3</h1>
+          <p class="hero__title">Help your toddler<br><mark>love to talk</mark></p>
+          <p class="hero__lead">Look at a card, hear the word, say it out loud. Hold the mic, say it once, and let go to see a pronunciation score. A missed word only ever hears “Try saying it again.”</p>
+
+          <div class="stores">
+            <a class="store" href="https://apps.apple.com/tw/app/id6804128361" target="_blank" rel="noopener">
+              <svg class="store__logo"><use href="#i-apple"/></svg>
+              <span class="store__text"><small>Download on the</small><b>App Store</b></span>
+            </a>
+            <a class="store" href="https://play.google.com/store/apps/details?id=com.cityforfun.kidspeech" target="_blank" rel="noopener">
+              <svg class="store__logo"><use href="#i-play"/></svg>
+              <span class="store__text"><small>GET IT ON</small><b>Google Play</b></span>
+            </a>
+          </div>
+
+          <ul class="pills">
+            <li><svg class="ico"><use href="#i-check"/></svg><span>No ads</span></li>
+            <li><svg class="ico"><use href="#i-check"/></svg><span>No sign-up</span></li>
+            <li><svg class="ico"><use href="#i-check"/></svg><span>Some topics free</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__art">
+          <figure class="phone phone--back">
+            <img src="../assets/img/screens/en/list.webp" width="600" height="1300" alt="Animal word cards">
+          </figure>
+          <figure class="phone phone--front">
+            <img src="../assets/img/screens/en/say.webp" width="600" height="1300" alt="Say it pronunciation practice: correct, score 95" fetchpriority="high">
+          </figure>
+        </div>
+      </div>
+
+      <svg class="hill" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 70C240 20 480 10 720 40s480 70 720 20v60H0z" fill="var(--grass-light)"/>
+        <path d="M0 95c260-40 520-40 760-10s460 30 680-5v40H0z" fill="var(--cream)"/>
+      </svg>
+    </section>
+
+    <!-- Video -->
+    <section class="section section--cream section--video" id="video">
+      <div class="wrap video">
+        <div class="video__frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/I3lN94zuRMc?rel=0&amp;playsinline=1" title="A toddler playing Kidvox on their own" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video__copy">
+          <p class="kicker">See it in action</p>
+          <h2>Watch a toddler practice on their own</h2>
+          <p class="muted">Pick a topic, tap a card to hear the word, hold the mic and say it, and see the score right away. Little ones get the hang of it by themselves.</p>
+          <p class="video__note">The video is in Chinese.</p>
+          <a class="video__link" href="https://www.youtube.com/shorts/I3lN94zuRMc" target="_blank" rel="noopener">
+            <span>Watch on YouTube</span>
+            <svg class="ico ico--sm"><use href="#i-external"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="section section--cream" id="how">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker">How it works</p>
+          <h2>Three steps, no reading required</h2>
+        </header>
+
+        <ol class="steps">
+          <li class="step">
+            <figure class="phone phone--sm">
+              <img src="../assets/img/screens/en/home.webp" width="600" height="1300" loading="lazy" alt="Topic menu">
+            </figure>
+            <div class="step__body">
+              <span class="step__num">1</span>
+              <h3>Pick a topic</h3>
+              <p>Animals, vehicles, fruits, vegetables, colors, body parts… start with one your child loves.</p>
+            </div>
+          </li>
+          <li class="step">
+            <figure class="phone phone--sm">
+              <img src="../assets/img/screens/en/rec.webp" width="600" height="1300" loading="lazy" alt="Holding the mic to record">
+            </figure>
+            <div class="step__body">
+              <span class="step__num">2</span>
+              <h3>Say it</h3>
+              <p>Tap a card to hear the word, hold the mic and say it, then let go to see the score.</p>
+            </div>
+          </li>
+          <li class="step">
+            <figure class="phone phone--sm">
+              <img src="../assets/img/screens/en/result.webp" width="600" height="1300" loading="lazy" alt="Find it finished with three stars">
+            </figure>
+            <div class="step__body">
+              <span class="step__num">3</span>
+              <h3>Find it</h3>
+              <p>A mini quiz to spot the words just learned. Get them all right for three stars.</p>
+            </div>
+          </li>
+        </ol>
+        <div class="steps__dots">
+          <button class="steps__dot" type="button" aria-label="1. Pick a topic" aria-current="true"></button>
+          <button class="steps__dot" type="button" aria-label="2. Say it" aria-current="false"></button>
+          <button class="steps__dot" type="button" aria-label="3. Find it" aria-current="false"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+      <div class="wrap features">
+        <article class="panel panel--sky">
+          <p class="kicker">For kids</p>
+          <h2>Designed around what toddlers aged 2–3 can do</h2>
+          <ul class="feats">
+            <li class="feat">
+              <span class="feat__ico"><svg class="ico"><use href="#i-card"/></svg></span>
+              <div><h3>One big card at a time</h3><p>A clean screen, so little ones stay focused.</p></div>
+            </li>
+            <li class="feat">
+              <span class="feat__ico"><svg class="ico"><use href="#i-tap"/></svg></span>
+              <div><h3>Just tap and hold</h3><p>Children who can’t read yet can still play on their own.</p></div>
+            </li>
+            <li class="feat">
+              <span class="feat__ico"><svg class="ico"><use href="#i-smile"/></svg></span>
+              <div><h3>Never scolded</h3><p>A missed word just hears “Try saying it again”, so shy kids keep talking.</p></div>
+            </li>
+            <li class="feat">
+              <span class="feat__ico"><svg class="ico"><use href="#i-repeat"/></svg></span>
+              <div><h3>Repeat as often as you like</h3><p>Hear and say every word again and again, with no limits.</p></div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="panel panel--leaf">
+          <p class="kicker">For parents</p>
+          <h2>Built with parents in mind</h2>
+          <ul class="feats">
+            <li class="feat">
+              <span class="feat__ico"><svg class="ico"><use href="#i-ban"/></svg></span>
+              <div><h3>No ads</h3><p>No third-party ads anywhere, so nothing pops up to interrupt your child.</p></div>
+            </li>
+            <li class="feat">
+              <span class="feat__ico"><svg class="ico"><use href="#i-lock"/></svg></span>
+              <div><h3>Parental gate</h3><p>Settings and the subscription page sit behind a simple math question.</p></div>
+            </li>
+            <li class="feat">
+              <span class="feat__ico"><svg class="ico"><use href="#i-user-x"/></svg></span>
+              <div><h3>No sign-up</h3><p>No account, no login, and no names, birthdays or other personal details collected.</p></div>
+            </li>
+            <li class="feat">
+              <span class="feat__ico"><svg class="ico"><use href="#i-mic"/></svg></span>
+              <div><h3>Recordings deleted right away</h3><p>The mic only runs while the button is held, and each clip is deleted as soon as it’s scored. We keep no recordings.</p></div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Topics + Languages -->
+    <section class="section section--cream" id="topics">
+      <div class="wrap content-grid">
+        <article class="card">
+          <p class="kicker">What they learn</p>
+          <h2>First words from everyday life</h2>
+          <p class="muted">Start with the things kids see and touch every day, building vocabulary one word at a time. New topics are added over time.</p>
+          <ul class="chips">
+            <li class="chip c1">Animals</li>
+            <li class="chip c2">Vehicles</li>
+            <li class="chip c3">City streets</li>
+            <li class="chip c4">Fruits</li>
+            <li class="chip c5">Vegetables</li>
+            <li class="chip c6">Food &amp; drinks</li>
+            <li class="chip c1">Colors</li>
+            <li class="chip c2">Body</li>
+            <li class="chip c3">Clothes</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <p class="kicker">Languages</p>
+          <h2>Practice in four languages</h2>
+          <p class="muted">Switch the language in Settings and the words, audio and scoring all change with it. Great for bilingual families.</p>
+          <ul class="langs">
+            <li lang="zh-Hant"><b>繁體中文</b><span>螞蟻</span></li>
+            <li lang="en"><b>English</b><span>Ant</span></li>
+            <li lang="es"><b>Español</b><span>Hormiguita</span></li>
+            <li lang="ko"><b>한국어</b><span>개미</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="wrap wrap--narrow">
+        <header class="section__head">
+          <p class="kicker">FAQ</p>
+          <h2>Questions parents ask</h2>
+        </header>
+        <div class="faq">
+          <details>
+            <summary>How is it different from regular flashcards?</summary>
+            <p>Most flashcards only let kids look and listen. Kidvox adds “Say it”: your child holds the mic, says the word, and gets a pronunciation score right away, so they know if they got it and want to keep talking.</p>
+          </details>
+          <details>
+            <summary>What age is it for?</summary>
+            <p>Mainly toddlers aged 2–3 who are just starting to talk. Older kids, or children learning a second language, can use it to pick up new words and practice pronunciation too.</p>
+          </details>
+          <details>
+            <summary>My toddler isn’t talking much yet. Can they still play?</summary>
+            <p>Yes. Start by tapping cards to hear the words, then try the mic when your child is ready. Cards come one at a time, every word can be replayed, and a missed word only hears “Try saying it again.” It’s a practice game, not a speech therapy tool. Every child starts talking at their own pace, so if you’re concerned about your child’s language development, please talk to your pediatrician or a speech-language therapist.</p>
+          </details>
+          <details>
+            <summary>Can my child practice another language?</summary>
+            <p>Yes. Switch the language in Settings to Traditional Chinese, Spanish or Korean, and the words, audio and pronunciation scoring all switch (the app’s menus switch too).</p>
+          </details>
+          <details>
+            <summary>How is the pronunciation score worked out? What if it’s too strict?</summary>
+            <p>After your child says the word, speech recognition compares it with the correct pronunciation and gives a score from 0 to 100. Reach the passing score and the word counts as correct. Parents can change the Scoring Level in Settings: Easy (40), Medium (60, the default) or Hard (80). Kids just starting to talk can begin with Easy.</p>
+          </details>
+          <details>
+            <summary>Does it cost anything?</summary>
+            <p>The app is free to download. Four topics are free (Animals, Vehicles, City streets and Fruits), with “Say it” and “Find it” fully playable. The other topics unlock with a subscription, which also covers topics added later. Monthly and yearly plans are available, and the price in your currency is shown in the app.</p>
+          </details>
+          <details>
+            <summary>Does it need the internet?</summary>
+            <p>Pronunciation scoring in “Say it” needs a connection. Each topic’s cards and sounds download the first time it’s opened, then stay on the device.</p>
+          </details>
+          <details>
+            <summary>Are my child’s recordings kept?</summary>
+            <p>No. The mic only records while the button is held (up to 10 seconds). The clip is sent to a speech recognition service for scoring, and the temporary file is deleted from the device as soon as it’s done. We run no servers of our own and never keep, analyze or sell recordings. See the <a href="https://kailuen.github.io/kidspeech.privacy/" target="_blank" rel="noopener">privacy policy</a>.</p>
+          </details>
+          <details>
+            <summary>Which devices does it run on?</summary>
+            <p>iPhone, iPad, and Android phones and tablets.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section class="section section--tight" id="download">
+      <div class="wrap">
+        <div class="cta">
+          <div class="cta__copy">
+            <h2>Start talking together today</h2>
+            <p>Free to download. No sign-up, just open it and play.</p>
+            <div class="stores">
+              <a class="store" href="https://apps.apple.com/tw/app/id6804128361" target="_blank" rel="noopener">
+                <svg class="store__logo"><use href="#i-apple"/></svg>
+                <span class="store__text"><small>Download on the</small><b>App Store</b></span>
+              </a>
+              <a class="store" href="https://play.google.com/store/apps/details?id=com.cityforfun.kidspeech" target="_blank" rel="noopener">
+                <svg class="store__logo"><use href="#i-play"/></svg>
+                <span class="store__text"><small>GET IT ON</small><b>Google Play</b></span>
+              </a>
+            </div>
+          </div>
+          <div class="qrs">
+            <figure class="qr">
+              <img src="../assets/img/qr-ios.png" width="250" height="250" loading="lazy" alt="App Store QR Code">
+              <figcaption>iPhone / iPad</figcaption>
+            </figure>
+            <figure class="qr">
+              <img src="../assets/img/qr-android.png" width="250" height="250" loading="lazy" alt="Google Play QR Code">
+              <figcaption>Android</figcaption>
+            </figure>
+            <p class="qrs__hint">Scan with your phone camera</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <svg class="footer__hill" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 50c240-40 520-50 760-20s460 40 680 0v50H0z" fill="var(--grass)"/>
+    </svg>
+    <div class="footer__body">
+      <div class="wrap footer__grid">
+        <div class="footer__brand">
+          <img src="../assets/img/icon-256.webp" width="48" height="48" alt="">
+          <div>
+            <p class="footer__name">Kidvox</p>
+            <p class="footer__tag">Pronunciation flashcards for toddlers and kids aged 2–3</p>
+          </div>
+        </div>
+        <ul class="footer__links">
+          <li><a href="https://kailuen.github.io/kidspeech.privacy/" target="_blank" rel="noopener">Privacy Policy</a></li>
+          <li><a href="mailto:stonegray1@gmail.com">Contact us</a></li>
+          <li><a href="https://apps.apple.com/tw/app/id6804128361" target="_blank" rel="noopener">App Store</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.cityforfun.kidspeech" target="_blank" rel="noopener">Google Play</a></li>
+        </ul>
+      </div>
+      <div class="wrap"><p class="footer__copy">© 2026 CityFun</p></div>
+    </div>
+  </footer>
+
+</div>
+
+<script type="application/json" id="kidvox-langs">{"zh":{"href":"../","hint":"這個網頁也有繁體中文版","go":"切換"},"en":{"href":"../en/","hint":"This page is also available in English.","go":"Switch"},"es":{"href":"../es/","hint":"Esta página también está en español.","go":"Cambiar"},"ko":{"href":"../ko/","hint":"이 페이지는 한국어로도 볼 수 있어요.","go":"보기"}}</script>
+<script src="../assets/js/main.js" data-lang="en"></script>
+</body>
+</html>
